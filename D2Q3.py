@@ -3,8 +3,8 @@
 # and print out the converted temperature rounded to the nearest whole number.
 
 def convToFah(cTemp):
-    Fahrenite = (9 / 5)* cTemp + 32
-    print(f"It is {Fahrenite} Fahrenite")
+    fahrenite = (9 / 5)* cTemp + 32
+    return(f"It is {fahrenite} Fahrenite")
 
-celcius = float(input("Please enter the tempreture in celcius "))
-convToFah(celcius)
+celcius = float(34)
+print (convToFah(celcius))
