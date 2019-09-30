@@ -1,11 +1,6 @@
-# Write a method called isLeapYear(someYear) that accepts an integer value (Ex/1904) that represents a year. 
-# The method returns the boolean value True if the year is a leap year and False if the year is not.
+#Write a function called isEven(number) that returns True if the number is even and False if the number isn't.
+def isEven(num):
+    return num % 2 == 0
 
-def isLeapYear(year):
-    if((year % 400 == 0) or ((year % 4 == 0) and (year % 100 != 0))):
-        print(True)
-    else:
-        print(False)
-
-number = int(input("Please enter a year "))
-isLeapYear(number)
+userNum = int(input("Please enter a number: "))
+print(isEven(userNum))
